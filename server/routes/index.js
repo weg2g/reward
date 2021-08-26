@@ -299,7 +299,7 @@ apiRoutes.post('/enrollEmp', async function (req, res) {
 
 function sendMail(usr) {
     let mailOptions = {
-        from: `"Loyalty Exchange " <rishabhthaney@gmail.com>`, // sender's address,
+        from: `"Loyalty Exchange " <dcwebmakers@gmail.com>`, // sender's address,
         to: usr.name, // list of receivers
         subject: 'Welcome to Loyalty Exchange Program', // Subject line
         html: '<p>You are enrolled with us!! Please use your email address as your user name and password!!<br/><br/>Click <a href="' + '//localhost:4200' + '">here</a> check out cool offers and redeem them.</p>' // html body
